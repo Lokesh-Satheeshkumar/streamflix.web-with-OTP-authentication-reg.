@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StreamFlix</title>
+  <link rel="stylesheet" href="homeStyle.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">StreamFlix</div>
+    <ul class="nav-items">
+     <ul class="nav-items">
+  <li><a href="home.html">Home</a></li>
+  <li><a href="movies.html">Movies</a></li>
+  <li><a href="series.html">Series</a></li>
+  <li><a href="mylist.html">My List</a></li>
+</ul>
+
+  </nav>
+
+  <header class="banner" aria-label="Featured Movie">
+    <div class="banner-content">
+      <h1>Featured Movie</h1>
+      <p>Watch the latest blockbuster now.</p>
+      <button class="btn">Play</button>
+      <button class="btn btn-secondary">More Info</button>
+    </div>
+  </header>
+  <!-- Video Player Modal -->
+<div id="videoModal" class="video-modal">
+  <div class="video-modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <video id="videoPlayer" width="100%" controls>
+      <source src="9442282-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="thumbnails">
+      <img src="dude.jpg" alt="Movie 1" />
+      <img src="truelover.jpg" alt="Movie 2" />
+      <img src="mahan.jpg" alt="Movie 3" />
+      <img src="retro.jpg" alt="Movie 4" />
+      <img src="kingston.jpg" alt="Movie 5" />
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
